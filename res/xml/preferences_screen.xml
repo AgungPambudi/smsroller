@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory android:title="@string/launch_settings_title">
+    	
+    	<CheckBoxPreference android:key="AutoStart"
+    		android:title="@string/auto_start_title"
+    		android:summary="@string/auto_start_summary"
+    		android:defaultValue="true"
+    		/>
+    	
+    	<!-- Silence phone while app is running -->
+    	<CheckBoxPreference android:key="SilentMode"
+    		android:title="@string/silent_mode_title"
+    		android:summary="@string/silent_mode_summary"
+    		android:disableDependentsState="false"
+    		android:defaultValue="true" 
+    		/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/response_settings_title">
+     	
+     	<CheckBoxPreference android:key="RespondCall"
+     		android:title="@string/respond_call_title"
+     		android:summary="@string/respond_call_summary"
+     		android:defaultValue="true"
+     		/>
+     
+     	<CheckBoxPreference android:key="RespondSMS"
+     		android:title="@string/respond_sms_title"
+     		android:summary="@string/respond_sms_summary"
+     		android:defaultValue="true"
+     		/>
+     
+     	<CheckBoxPreference android:key="MultipleResponse"
+     		android:title="@string/multiple_response_title"
+     		android:summary="@string/multiple_response_summary"
+     		android:defaultValue="false"
+     		/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/history_title">
+    	
+    	<CheckBoxPreference android:key="HistoryEnabled"
+    		android:title="@string/history_enabled_title"
+    		android:summary="@string/history_enabled_summary"
+    		android:defaultValue="true"
+    		android:disableDependentsState="false"
+    		/>
+    	
+    	<CheckBoxPreference android:key="HistoryShowBody"
+    		android:title="@string/history_show_body_title"
+    		android:summary="@string/history_show_body_summary"
+    		android:defaultValue="true"
+    		/>
+    	
+    	<CheckBoxPreference android:key="HistoryExpanded"
+    		android:title="@string/history_expanded_title"
+    		android:summary="@string/history_expanded_summary"
+    		android:defaultValue="true" 
+    		/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/power_settings_title">
+    	
+    	<CheckBoxPreference android:key="ServiceNotification"
+    		android:title="@string/service_notification_title"
+    		android:summary="@string/service_notification_summary"
+    		android:defaultValue="true"
+    		/>
+    	
+    	<CheckBoxPreference android:key="ExitOption"
+    		android:title="@string/exit_option_title"
+    		android:summary="@string/exit_option_summary"
+    		android:defaultValue="false"
+    		/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">SMS Roller</string>
+
+	<!-- Main -->
+    <string name="switch_on">Disabled</string>
+    <string name="switch_off">Enabled</string>
+    <string name="response_title">Your Reply Message</string>
+    <string name="response_message_value">I am busy right now, I will contact you later.</string>
+    
+    <!-- Menu -->
+    <string name="restore_defaults_title">Restore Defaults</string>
+    <string name="clear_history_title">Clear History</string>
+    <string name="exit_title">Exit</string>
+    
+    <!-- Preferences -->
+    <!-- Launch Settings -->
+    <string name="launch_settings_title">Application</string>
+    <string name="auto_start_title">Auto-Start</string>
+    <string name="auto_start_summary">Start application service when launched</string>
+    
+    <string name="silent_mode_title">Silent Mode</string>
+    <string name="silent_mode_summary">Silence phone while application is running</string>
+    
+    <!-- Response Settings -->
+    <string name="response_settings_title">Response</string>
+    
+    <string name="respond_call_title">Calls</string>
+    <string name="respond_call_summary">Automatically respond to incoming Calls</string>
+    
+    <string name="respond_sms_title">SMS Messages</string>
+    <string name="respond_sms_summary">Automatically respond to incoming SMS Messages</string>
+    
+    <string name="multiple_response_title">Multiple Response</string>
+    <string name="multiple_response_summary">Respond to the same number more than once per session</string>
+    
+    <!-- History -->
+    <string name="history_title">History</string>
+    
+    <string name="history_enabled_title">Enable History</string>
+    <string name="history_enabled_summary">Enable Call and SMS message history</string>
+
+    <string name="history_show_body_title">Show Message Body</string>
+    <string name="history_show_body_summary">Show the received message body</string>
+    
+    <string name="history_expanded_title">Auto-Expand History</string>
+    <string name="history_expanded_summary">Automatically expand Calls and SMS messages in the history</string>
+     
+    <!-- Power/Memory Settings -->
+    <string name="power_settings_title">Other</string>
+	
+    <string name="service_notification_title">Notification</string>
+    <string name="service_notification_summary">Show an ongoing notification while application is running</string>
+	    
+    <string name="exit_option_title">Exit Option</string>
+    <string name="exit_option_summary">Stop background service when Menu &gt; Exit is pressed</string>
+
+</resources>

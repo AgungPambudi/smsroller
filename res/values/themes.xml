@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="IzeTheme" parent="android:Theme">
+		<item name="android:windowTitleSize">60px</item>
+		<item name="android:windowTitleBackgroundStyle">@style/titleBarBackground</item>
+	</style>    
+</resources>
